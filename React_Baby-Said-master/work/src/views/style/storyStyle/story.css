@@ -1,0 +1,42 @@
+.story-box {
+  width: 100%;
+  height: 100%;
+}
+
+.story-box .story {
+  width: 100%;
+  height: calc(.8rem*2);
+  border-bottom: 1px solid #000;
+  display: flex;
+}
+
+.story-box .story .story-left {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-box .story .story-left p {
+  width: 80%;
+  height: 80%;
+  background: cadetblue;
+}
+
+.story-box .story .story-left p img {
+  width: 100%;
+  height: 100%;
+}
+
+.story-box .story .story-mid {
+  flex: 6;
+  font-size: calc(.14rem*2);
+  line-height: calc(.4rem*2);
+}
+
+.story-box .story .story-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+.sing {
+    width: 100%;
+    background: lightcoral;
+    .sing-item {
+        width: 100%;
+        height: calc(.7rem*2);
+        border-bottom: 1px solid #000;
+        display: flex;
+        .item-left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item-mid {
+            flex: 7;
+            line-height: calc(.3rem*2);
+            h4 {
+                font-size: calc(.14rem*2);
+            }
+            p {
+                font-size: calc(.12rem*2);
+            }
+        }
+        .item-right {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ccc;
+            i {
+                font-size: calc(.3rem*2);
+            }
+        }
+    }
+}

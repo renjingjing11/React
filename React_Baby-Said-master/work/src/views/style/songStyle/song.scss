@@ -1,0 +1,43 @@
+.song-box {
+    width: 100%;
+    height: 100%;
+    .song {
+        width: 100%;
+        height: calc(.8rem*2);
+        border-bottom: 1px solid #000;
+        display: flex;
+        .song-left {
+            flex: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                width: 80%;
+                height: 80%;
+                background: cadetblue;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .song-mid {
+            flex: 6;
+            line-height: calc(.4rem*2);
+            h4 {
+                font-size: calc(.14rem*2);
+                font-weight: bolder;
+            }
+            p {
+                font-size: calc(.12rem*2);
+            }
+        }
+        .song-right {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #94e2d5;
+        }
+    }
+}
